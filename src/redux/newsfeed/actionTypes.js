@@ -1,0 +1,2 @@
+export const GET_NEWSFEED = 'GET_NEWSFEED';
+export const EXPAND_NEWSFEED = 'EXPAND_NEWSFEED';

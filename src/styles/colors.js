@@ -1,0 +1,21 @@
+export default {
+  lightgreen: '#56BA93',
+  gray: '#4e5961',
+  lightgray: '#E1E3E5',
+  azure: 'rgba(15, 151, 93, 0.15)',
+  semiTransparentGreen: '#ABDDC9',
+  placeholderGray: '#C7C7CD',
+  black: '#393C3F',
+  black04: 'rgba(57, 60, 63, 0.4)',
+  black09: 'rgba(57, 60, 63, 0.9)',
+  grayBorder: '#E0E0E0',
+  red:  '#FB8B89',
+  _gray: '#90A7BA',
+  _lightgray: '#EFEFF4',
+  _deepblue: '#00DBF5',
+  _darkblue: '#04344A',
+  _darkviolet: '#104F74',
+  _blue: '#0082AB',
+  deepblack: '#03151D',
+  _darkblue_v2: '#384062'
+};

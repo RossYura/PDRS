@@ -1,0 +1,1 @@
+export const keywords = state => state.Profile.keywords;

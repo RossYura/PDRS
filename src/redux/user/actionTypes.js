@@ -1,0 +1,9 @@
+export const LOGIN_USER = 'LOGIN_USER';
+export const SIGNUP_USER = 'SIGNUP_USER';
+export const FORGOT_PASSWORD = 'FORGOT_PASSWORD';
+export const LOGOUT_USER = 'LOGOUT_USER';
+export const USER_CHANGED = 'USER_CHANGED';
+export const RESET_PASSWORD = 'RESET_PASSWORD';
+
+export const SHOW_LOADING = 'SHOW_LOADING';
+export const HIDE_LOADING = 'HIDE_LOADING';

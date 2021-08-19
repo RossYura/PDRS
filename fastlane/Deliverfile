@@ -1,0 +1,13 @@
+# The Deliverfile allows you to store various App Store Connect metadata
+# For more information, check out the docs
+# https://docs.fastlane.tools/actions/deliver/
+username 'twilkinson573@gmail.com'
+
+app_identifier "com.pitchdrive.app"
+app_icon 'src/assets/icon.png'
+app_rating_config_path "app_ratings_config.json"
+price_tier 0
+submission_information({
+  export_compliance_uses_encryption: false,
+  add_id_info_uses_idfa: false
+})

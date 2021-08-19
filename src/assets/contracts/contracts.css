@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url('../fonts/ProximaNova/ProximaNova_Regular.otf');
+}
+
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url('../fonts/ProximaNova/ProximaNova_Bold.otf');
+}
+
+.contract-container-outer {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contract-container {
+    font-family: ProximaNovaRegular, sans-serif;
+    max-width: 800px;
+}
+
+.contract-container p {
+    margin: 0;
+}
+
+.contract-container b {
+    font-family: ProximaNovaBold, sans-serif;
+}
+
+.contract-container .header {
+    font: 40px ProximaNovaBold, sans-serif;
+    margin: 0;
+    display: inline-flex;
+    flex-direction: column;
+    color: red;
+}
+
+.header-underlines {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+
+.header-underlines div:first-child {
+    height: 3px;
+    width: 80%;
+    background: #0065A1;
+    border-radius: 7px;
+}
+
+.header-underlines div:last-child {
+    height: 3px;
+    background: #0065A1;
+    border-radius: 7px;
+    width: 15%;
+}
+
+.list-header {
+    padding-left: 22px;
+}
+
+.title {
+    font-size: 19px;
+}
+
+.contract-container .bold {
+    font-family: ProximaNovaBold, sans-serif;
+}
+
+.contract-container .spacing-bottom {
+    margin-bottom: 28px;
+}
+
+.border-zone {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 640px) {
+    .contract-container {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .contract-container .header {
+        font-size: 60px !important;
+    }
+
+    .border-zone {
+        padding: 40px;
+    }
+}
